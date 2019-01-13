@@ -1,0 +1,48 @@
+html,
+body {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-left: 20rem;
+    background: rgb(159, 174, 190);
+    background: linear-gradient(21deg, rgba(159, 174, 190, 1) 0%, rgba(9, 213, 202, 1) 100%);
+}
+
+.main {
+    height: 50%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 3.5rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li:before {
+    content: '\2192';
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: 1000;
+    color: rgb(179, 241, 238);
+}
