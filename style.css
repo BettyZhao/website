@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    margin-left: 20rem;
+    margin: 30vw;
     background: rgb(159, 174, 190);
     background: linear-gradient(21deg, rgba(159, 174, 190, 1) 0%, rgba(9, 213, 202, 1) 100%);
 }
@@ -25,16 +25,12 @@ h1 {
     font-style: italic;
     font-weight: normal;
     font-size: 3.5rem;
+    letter-spacing: -0.02em;
 }
 
 ul {
     list-style: none;
     padding-left: 0px;
-}
-
-li:before {
-    content: '\2192';
-    margin-right: 10px;
 }
 
 a {
